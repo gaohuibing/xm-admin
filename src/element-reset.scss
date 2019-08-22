@@ -1,0 +1,188 @@
+/* 改变主题色变量 */
+
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
+$--color-primary: #44B549;
+
+/* 改变 icon 字体路径变量，必需 */
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import "~element-ui/packages/theme-chalk/src/index";
+.el-input {
+    width: 100%
+}
+
+.el-select {
+    width: 100%
+}
+
+.el-cascader {
+    width: 100%
+}
+
+.el-input__inner {
+    height: 32px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    line-height: 32px;
+    padding-right: 2px
+}
+
+.el-input__icon {
+    line-height: 32px
+}
+
+.el-form-item__content {
+    display: flex;
+    align-items: center
+}
+
+.table-content {
+    .el-table--border td,
+    .el-table--border th,
+    .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+        border: none
+    }
+    .el-table--border,
+    .el-table--group {
+        border: none
+    }
+    .el-table::before {
+        height: 0;
+    }
+    .el-table thead tr th {
+        background: #F6F7FF;
+        border-top: 1px solid rgba(231, 231, 235, 1);
+        border-bottom: 1px solid rgba(231, 231, 235, 1);
+    }
+    .el-table th>.cell {
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(28, 28, 28, 1);
+    }
+    .el-table td {
+        padding: 9px 0
+    }
+    .el-table td .cell {
+        //   padding: 0;
+        color: #1C1C1C;
+        font-size: 14px
+    }
+}
+
+.el-message-box {
+    width: 371px
+}
+
+.el-message-box span {
+    font-size: 14px!important
+}
+
+.el-message-box__btns {
+    margin-top: 20px
+}
+
+.el-message-box__btns button:nth-child(2) {
+    margin-left: 50px
+}
+
+//分页
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .el-pager li {
+    border-radius: 50%;
+    height: 30px;
+    line-height: 30px
+}
+
+.el-breadcrumb {
+    height: 100%;
+    line-height: 46px
+}
+
+.el-breadcrumb__item:last-child .el-breadcrumb__inner,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner:hover,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner a,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover {
+    color: #44B549;
+}
+
+.el-textarea__inner {
+    width: 370px
+}
+
+.el-button--small {
+    padding: 9px 25px;
+    font-size: 14px;
+}
+
+// 登录input样式
+.login-main .login-item {
+    padding: 0 10px 0 4px;
+    border-bottom: 1px solid #f5f5f5;
+    height: 40px;
+    margin-bottom: 20px;
+    //     overflow: hidden;
+    position: relative;
+}
+
+.login-main .el-input__inner {
+    border: none;
+}
+
+.login-main .x-icon {
+    float: left;
+    margin-top: 11px
+}
+
+.login-main .el-input {
+    width: 248px;
+    float: left;
+    height: 40px;
+    line-height: 40px
+}
+
+.login-main .getcode {
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    float: right;
+    border-radius: 2px;
+    border: 1px solid rgba(68, 181, 73, 1);
+    text-align: center;
+    margin-top: 8px;
+    color: #44B549;
+    cursor: pointer;
+}
+
+.nopad .el-input__inner {
+    padding: 0
+}
+
+.login-item .el-input__suffix {
+    right: 10px;
+}
+
+.el-date-editor .el-range__icon {
+    line-height: 25px
+}
+
+.el-date-editor .el-range-separator {
+    line-height: 23px
+}
+
+.el-date-editor .el-range__close-icon {
+    line-height: 25px
+}
+
+.el-range-editor.el-input__inner {
+    width: 100%
+}
+
+.el-checkbox {
+    margin-right: 10px
+}
+
+.el-button--small {
+    padding: 9px 15px
+}
